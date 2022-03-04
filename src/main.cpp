@@ -32,7 +32,7 @@ const unsigned short timer2CompareValue = (16000000 / 100 / 1024) - 1; // = 155
 unsigned int timer2CycleCounter = 0;
 
 void initTimer1() {
-    // diable all interrupts (temporarily)
+    // Diable all interrupts (temporarily)
     noInterrupts();
 
     // Timer/Counter Control Register A of timer1
@@ -51,7 +51,7 @@ void initTimer1() {
 }
 
 void initTimer2() {
-    // diable all interrupts (temporarily)
+    // Diable all interrupts (temporarily)
     noInterrupts();
 
     // Timer/Counter Control Register A of timer2
